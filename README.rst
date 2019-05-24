@@ -1,17 +1,15 @@
 Umm al-Qura Calendar
 ====================
 
-A dataset of Umm al-Qura comparative calendar for Hijri (lunar and solar) and
-Gregorian dates.
+A dataset of Umm al-Qura Comparative Calendar for Hijri and Gregorian dates
+including the years 1300-1500 AH (1882-2077 CE).
 
 |data| |license|
 
-.. |data|
-   image:: https://goodtables.io/badge/github/datasets/ummalqura-calendar.svg
+.. |data| image:: https://goodtables.io/badge/github/datasets/ummalqura-calendar.svg
    :alt: Data Status
    :target: https://goodtables.io/github/datasets/ummalqura-calendar
-.. |license|
-   image:: https://img.shields.io/github/license/dralshehri/ummalqura-calendar.svg
+.. |license| image:: https://img.shields.io/github/license/dralshehri/ummalqura-calendar.svg
    :alt: License
    :target: https://github.com/dralshehri/ummalqura-calendar/blob/master/LICENSE
 
@@ -67,25 +65,25 @@ implemented in Python language as follows:
 Columns
 ~~~~~~~
 
-``rjd``: Reduced Julian Day, computed as (Julian Day - 2,400,000).
+``rjd`` Reduced Julian Day, computed as (Julian Day - 2,400,000).
 
-``hy``: Hijri lunar year.
+``hy`` Hijri lunar year.
 
-``hm``: Hijri lunar month.
+``hm`` Hijri lunar month.
 
-``hd``: Hijri lunar day.
+``hd`` Hijri lunar day.
 
-``gy``: Gregorian year.
+``gy`` Gregorian year.
 
-``gm``: Gregorian month.
+``gm`` Gregorian month.
 
-``gd``: Gregorian day.
+``gd`` Gregorian day.
 
-``sy``: Hijri solar year.
+``sy`` Hijri solar year.
 
-``sm``: Hijri solar month.
+``sm`` Hijri solar month.
 
-``sd``: Hijri solar day.
+``sd`` Hijri solar day.
 
 Sample
 ~~~~~~
@@ -93,12 +91,12 @@ Sample
 =======  ======  ====  ====  ======  ====  ====  ======  ====  ====
   rjd      hy     hm    hd     gy     gm    gd     sy     sm    sd
 =======  ======  ====  ====  ======  ====  ====  ======  ====  ====
- 58624    1440    9     15    2019    5     20    1397    8     30
- 58625    1440    9     16    2019    5     21    1397    8     31
- 58626    1440    9     17    2019    5     22    1397    9     1
- 58627    1440    9     18    2019    5     23    1397    9     2
- 58628    1440    9     19    2019    5     24    1397    9     3
- 58629    1440    9     20    2019    5     25    1397    9     4
+ 58608    1440    8     29    2019    5     4     1397     8    14
+ 58609    1440    8     30    2019    5     5     1397     8    15
+ 58610    1440    9     1     2019    5     6     1397     8    16
+ 58611    1440    9     2     2019    5     7     1397     8    17
+ 58612    1440    9     3     2019    5     8     1397     8    18
+ 58613    1440    9     4     2019    5     9     1397     8    19
 =======  ======  ====  ====  ======  ====  ====  ======  ====  ====
 
 Contributing
