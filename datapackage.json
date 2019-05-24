@@ -1,0 +1,77 @@
+{
+  "name": "ummalqura-calendar",
+  "title": "Umm al-Qura Comparative Calendar Dataset",
+  "description": "A dataset of Umm al-Qura Comparative Calendar for Hijri and Gregorian dates including the years 1300-1500 AH (1882-2077 CE)",
+  "homepage": "https://github.com/dralshehri/ummalqura-calendar",
+  "version": "1.0.0",
+  "created": "2019-05-24T15:02:04.20Z",
+  "resources": [
+    {
+      "path": "data/ummalqura.csv",
+      "name": "ummalqura",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "schema": {
+        "fields": [
+          {
+            "name": "rjd",
+            "type": "integer",
+            "title": "Reduced Julian Day",
+            "constraints": {
+              "unique": true
+            }
+          },
+          {
+            "name": "hy",
+            "type": "integer",
+            "title": "Hijri lunar year"
+          },
+          {
+            "name": "hm",
+            "type": "integer",
+            "title": "Hijri lunar month"
+          },
+          {
+            "name": "hd",
+            "type": "integer",
+            "title": "Hijri lunar day"
+          },
+          {
+            "name": "gy",
+            "type": "integer",
+            "title": "Gregorian year"
+          },
+          {
+            "name": "gm",
+            "type": "integer",
+            "title": "Gregorian month"
+          },
+          {
+            "name": "gd",
+            "type": "integer",
+            "title": "Gregorian day"
+          },
+          {
+            "name": "sy",
+            "type": "integer",
+            "title": "Hijri solar year"
+          },
+          {
+            "name": "sm",
+            "type": "integer",
+            "title": "Hijri solar month"
+          },
+          {
+            "name": "sd",
+            "type": "integer",
+            "title": "Hijri solar day"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ]
+}
