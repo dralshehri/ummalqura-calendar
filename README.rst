@@ -6,10 +6,12 @@ including the years 1300-1500 AH (1882-2077 CE).
 
 |data| |license|
 
-.. |data| image:: https://goodtables.io/badge/github/datasets/ummalqura-calendar.svg
+.. |data|
+   image:: https://goodtables.io/badge/github/dralshehri/ummalqura-calendar.svg
    :alt: Data Status
-   :target: https://goodtables.io/github/datasets/ummalqura-calendar
-.. |license| image:: https://img.shields.io/github/license/dralshehri/ummalqura-calendar.svg
+   :target: https://goodtables.io/github/dralshehri/ummalqura-calendar
+.. |license|
+   image:: https://img.shields.io/github/license/dralshehri/ummalqura-calendar.svg
    :alt: License
    :target: https://github.com/dralshehri/ummalqura-calendar/blob/master/LICENSE
 
