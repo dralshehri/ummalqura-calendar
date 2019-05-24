@@ -117,3 +117,10 @@ License
 This data is released into the public domain. See `LICENSE`_ file.
 
 .. _LICENSE: https://github.com/dralshehri/ummalqura-calendar/blob/master/LICENSE
+
+Change Log
+----------
+
+**1.0.0 (2019-05-24)**
+
+- First release.
