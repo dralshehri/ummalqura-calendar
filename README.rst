@@ -67,25 +67,16 @@ implemented in Python language as follows:
 Columns
 ~~~~~~~
 
-``rjd`` Reduced Julian Day, computed as (Julian Day - 2,400,000).
-
-``hy`` Hijri lunar year.
-
-``hm`` Hijri lunar month.
-
-``hd`` Hijri lunar day.
-
-``gy`` Gregorian year.
-
-``gm`` Gregorian month.
-
-``gd`` Gregorian day.
-
-``sy`` Hijri solar year.
-
-``sm`` Hijri solar month.
-
-``sd`` Hijri solar day.
+:``rjd``: Reduced Julian Day, computed as (Julian Day - 2,400,000).
+:``hy``: Hijri lunar year.
+:``hm``: Hijri lunar month.
+:``hd``: Hijri lunar day.
+:``gy``: Gregorian year.
+:``gm``: Gregorian month.
+:``gd``: Gregorian day.
+:``sy``: Hijri solar year.
+:``sm``: Hijri solar month.
+:``sd``: Hijri solar day.
 
 Sample
 ~~~~~~
@@ -107,7 +98,7 @@ Contributing
 Contributions are welcome, and they are greatly appreciated! Every little bit
 helps, and credit will always be given.
 
-Please `report an issue`_ if you have faced one.
+Please `report an issue`_ if you have any comment, question, or request.
 
 .. _report an issue: https://github.com/dralshehri/ummalqura-calendar/issues
 
@@ -121,6 +112,10 @@ This data is released into the public domain. See `LICENSE`_ file.
 Change Log
 ----------
 
-**1.0.0 (2019-05-24)**
+**1.0.1**
+
+- Improved README content.
+
+**1.0.0**
 
 - First release.
