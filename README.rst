@@ -112,6 +112,10 @@ This data is released into the public domain. See `LICENSE`_ file.
 Change Log
 ----------
 
+**1.0.2**
+
+- Fix file permissions.
+
 **1.0.1**
 
 - Improved README content.
