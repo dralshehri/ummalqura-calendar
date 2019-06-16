@@ -1,14 +1,19 @@
 {
   "name": "ummalqura-calendar",
   "title": "Umm al-Qura Comparative Calendar Dataset",
-  "description": "A dataset of Umm al-Qura Comparative Calendar for Hijri and Gregorian dates including the years 1300-1500 AH (1882-2077 CE)",
+  "description": "A dataset of Umm al-Qura comparative calendar including Hijri and Gregorian dates for the years 1300-1500 AH",
   "homepage": "https://github.com/dralshehri/ummalqura-calendar",
-  "version": "1.0.0",
-  "created": "2019-05-24T15:02:04.20Z",
+  "licenses": [
+    {
+      "name": "PDDL-1.0",
+      "path": "https://www.opendatacommons.org/licenses/pddl/1.0/",
+      "title": "Open Data Commons Public Domain Dedication and Licence 1.0"
+    }
+  ],
   "resources": [
     {
-      "path": "data/ummalqura.csv",
-      "name": "ummalqura",
+      "path": "data/ummalqura-calendar.csv",
+      "name": "ummalqura-calendar",
       "format": "csv",
       "mediatype": "text/csv",
       "encoding": "utf-8",
@@ -51,21 +56,6 @@
             "name": "gd",
             "type": "integer",
             "title": "Gregorian day"
-          },
-          {
-            "name": "sy",
-            "type": "integer",
-            "title": "Hijri solar year"
-          },
-          {
-            "name": "sm",
-            "type": "integer",
-            "title": "Hijri solar month"
-          },
-          {
-            "name": "sd",
-            "type": "integer",
-            "title": "Hijri solar day"
           }
         ],
         "missingValues": [
