@@ -26,11 +26,11 @@ Gregorian calendar is also used, mainly by the private sector.
 Data
 ----
 
-Data was generated using `Hijri Converter`_ Python package to provide accurate
-comparative tables for Hijri and Gregorian dates for the years 1343-1500 AH.
-In addition, `Reduced Julian Days`_ were computed for corresponding gregorian
-dates using a `published`_ method already implemented in `Hijri Converter`_
-package.
+Data was generated using `Hijri Converter`_ Python package to provide an
+accurate comparative table for Hijri and Gregorian dates for the years
+1343-1500 AH. Additionally, `Reduced Julian Days`_ were computed for
+corresponding gregorian dates using a `published`_ method already implemented
+in `Hijri Converter`_ package.
 
 .. _Hijri Converter: https://pypi.org/project/hijri-converter/
 .. _Reduced Julian Days: https://calendars.wikia.org/wiki/Julian_day_number
