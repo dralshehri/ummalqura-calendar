@@ -68,20 +68,20 @@ You will need Python 3.6 or greater and `Hijri Converter`_ package to generate
 the dataset. Follow these steps:
 
 1. Create and activate a virtual environment:
+   ::
 
-.. code-block:: bash
-   python3 -m venv env
-   source env/bin/activate
+       python3 -m venv env
+       source env/bin/activate
 
 2. Install the dependency package:
+   ::
 
-.. code-block:: bash
-   pip install hijri-converter
+       pip install hijri-converter
 
 3. Run the script to generate the dataset:
+   ::
 
-.. code-block:: bash
-   python scripts/generate.py
+       python scripts/generate.py
 
 Contributing
 ------------
