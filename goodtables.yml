@@ -2,4 +2,4 @@ datapackages:
   - datapackage.json
 
 settings:
-  row_limit: 72000
+  row_limit: 56000
