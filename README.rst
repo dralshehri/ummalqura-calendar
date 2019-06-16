@@ -29,7 +29,7 @@ Data
 Data was generated using `Hijri Converter`_ Python package to provide an
 accurate comparative table for Hijri and Gregorian dates for the years
 1343-1500 AH. Additionally, `Reduced Julian Days`_ were computed for
-corresponding gregorian dates using a `published`_ method already implemented
+corresponding Gregorian dates using a `published`_ method already implemented
 in `Hijri Converter`_ package.
 
 .. _Hijri Converter: https://pypi.org/project/hijri-converter/
@@ -65,7 +65,7 @@ Preparation
 -----------
 
 You will need Python 3.6 or greater and `Hijri Converter`_ package to generate
-the dataset. Follow these steps:
+the dataset.
 
 1. Create and activate a virtual environment:
    ::
@@ -107,7 +107,7 @@ Change Log
 - Instead of using tables of the Umm al-Qura calendar website, data was
   generated using `Hijri Converter`_ Python package for more accurate dates.
 - Added Python code used to generate data.
-- Removed solar Hijri dates as they are rarely used.
+- Removed solar Hijri calendar as it is rarely used.
 - Renamed dataset file.
 - Updated README content.
 
