@@ -28,9 +28,9 @@ Data
 
 Data was generated using the `Hijri Converter`_ Python package to provide an
 accurate comparative table for Hijri and Gregorian dates for the years
-1343-1500 AH. Additionally, `Reduced Julian Days`_ were computed assuming noon
-time for corresponding Gregorian dates using a `published`_ formula that is
-already implemented in the *Hijri Converter* package.
+1343-1500 AH. Additionally, `Reduced Julian Day`_ numbers were computed
+assuming noon time for corresponding Gregorian dates using a `published`_
+formula that is already implemented in the *Hijri Converter* package.
 
 .. _Hijri Converter: https://pypi.org/project/hijri-converter/
 .. _Reduced Julian Days: https://calendars.wikia.org/wiki/Julian_day_number
