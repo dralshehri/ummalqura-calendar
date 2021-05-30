@@ -2,7 +2,7 @@ Umm al-Qura Comparative Calendar
 ================================
 
 A dataset of Umm al-Qura comparative calendar including Hijri and Gregorian
-dates for the years 1300-1500 AH.
+dates for the years 1343-1500 AH.
 
 |data| |license|
 
@@ -30,10 +30,10 @@ Data was generated using the `Hijri Converter`_ Python package to provide an
 accurate comparative table for Hijri and Gregorian dates for the years
 1343-1500 AH. Additionally, `Reduced Julian Day`_ numbers were computed
 assuming noon time for corresponding Gregorian dates using a `published`_
-formula that is already implemented in the *Hijri Converter* package.
+formula that is already implemented in the `Hijri Converter`_ package.
 
 .. _Hijri Converter: https://pypi.org/project/hijri-converter/
-.. _Reduced Julian Days: https://calendars.wikia.org/wiki/Julian_day_number
+.. _Reduced Julian Day: https://calendars.wikia.org/wiki/Julian_day_number
 .. _published: http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.13.9215
 
 Columns
@@ -101,6 +101,11 @@ http://www.opendatacommons.org/licenses/pddl/1.0/
 
 Change Log
 ----------
+
+**2.0.1**
+
+- Update the ``generate`` script
+- Fix a typo in readme file
 
 **2.0.0**
 
