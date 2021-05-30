@@ -1,13 +1,21 @@
 {
   "name": "ummalqura-calendar",
-  "title": "Umm al-Qura Comparative Calendar Dataset",
-  "description": "A dataset of Umm al-Qura comparative calendar including Hijri and Gregorian dates for the years 1300-1500 AH",
+  "title": "Umm al-Qura Comparative Calendar",
+  "description": "A dataset of Umm al-Qura comparative calendar including the Hijri years 1343-1500 AH.",
+  "keywords": [
+    "hijri",
+    "gregorian",
+    "date",
+    "ummalqura",
+    "saudi",
+    "calendar"
+  ],
   "homepage": "https://github.com/dralshehri/ummalqura-calendar",
   "licenses": [
     {
-      "name": "PDDL-1.0",
-      "path": "https://www.opendatacommons.org/licenses/pddl/1.0/",
-      "title": "Open Data Commons Public Domain Dedication and Licence 1.0"
+      "name": "CC0-1.0",
+      "path": "https://github.com/dralshehri/ummalqura-calendar/blob/main/LICENSE",
+      "title": "Creative Commons Zero v1.0 Universal"
     }
   ],
   "resources": [
@@ -30,17 +38,17 @@
           {
             "name": "hy",
             "type": "integer",
-            "title": "Hijri lunar year"
+            "title": "Hijri year"
           },
           {
             "name": "hm",
             "type": "integer",
-            "title": "Hijri lunar month"
+            "title": "Hijri month"
           },
           {
             "name": "hd",
             "type": "integer",
-            "title": "Hijri lunar day"
+            "title": "Hijri day"
           },
           {
             "name": "gy",
